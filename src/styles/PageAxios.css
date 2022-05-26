@@ -1,0 +1,214 @@
+.axios__page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 3% 10%;
+}
+.axios__page h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #525252;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.axios__page h1 > .form {
+  font-size: 40px;
+  text-align: center;
+  color: #12c2e9;
+  font-weight: 400;
+}
+.axios__page h1 > .list {
+  font-size: 40px;
+  text-align: center;
+  color: #f64f59;
+  font-weight: 400;
+}
+.contact__list {
+  min-width: 47%;
+}
+.contact__card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  margin-bottom: 10px;
+  padding: 8px;
+
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(82, 82, 82, 0.3) 3px 3px 8px -3px;
+}
+.contact__card img {
+  height: auto;
+  width: 40px;
+  clip-path: circle();
+}
+
+.contact__card .data {
+  width: 75%;
+}
+.contact__card .data p {
+  text-align: left;
+}
+.contact__card .data .name,
+.contact__card .data .phone {
+  color: #525252;
+  font-size: 18px;
+  font-weight: bold;
+}
+.contact__card .data .name span {
+  color: #12c2e9;
+  font-weight: normal;
+}
+.contact__card .data .phone span {
+  font-weight: normal;
+}
+.contact__card .delete__icon {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+  color: #f64f59;
+}
+.contact__card .edit__icon {
+  top: 15px;
+  position: absolute;
+  right: 50px;
+  cursor: pointer;
+  color: #12c2e9;
+}
+.contact__list .empty__list-text {
+  margin-top: 60px;
+  font-size: 30px;
+  text-align: center;
+  color: #525252;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+/* Form  */
+.contact__form {
+  min-width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact__form form {
+  background-color: #ffffff;
+  width: 100%;
+
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(82, 82, 82, 0.3) 3px 3px 8px -3px;
+}
+.contact__form form .input__text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 15px;
+}
+.contact__form form .input__text input {
+  height: 30px;
+  width: 90%;
+
+  color: #525252;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  outline: none;
+  text-align: center;
+
+  border: none;
+}
+.contact__form form .input__text i {
+  height: 18px;
+  color: #ffffff;
+  width: 10%;
+  padding: 10px 0;
+  background-color: #00b5fd;
+  border-radius: 5px 0 0 5px;
+}
+.contact__form form button {
+  position: relative;
+  height: 40px;
+  margin: 30px 0;
+  width: 95%;
+
+  color: #ffffff;
+  font-size: 20px;
+
+  background-color: #12c2e9;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all ease 0.3s;
+}
+.contact__form form button span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+.contact__form form button::before {
+  position: absolute;
+
+  content: "";
+  display: block;
+  height: 45px;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  background: #12c2e9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: all ease 0.3s;
+  opacity: 0;
+}
+.contact__form form button:hover::before {
+  opacity: 1;
+}
+
+/* Modal  */
+.moda__title {
+  font-size: 25px;
+  color: #525252;
+}
+.moda__title span {
+  color: #12c2e9;
+}
+.modal-body {
+  width: 100%;
+}
+.modal-body form .input__text {
+  padding: 0 20px;
+}
+.modal-body .input__text input {
+  height: 32px;
+  margin-bottom: 20px;
+  width: 80%;
+
+  color: #525252;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  outline: none;
+  text-align: center;
+
+  border: solid 1px #00b5fd;
+}
+.modal-body form .input__text i {
+  height: 00%;
+  color: #ffffff;
+  width: 50px;
+  padding: 10px 0;
+  background-color: #00b5fd;
+
+  border-radius: 5px 0 0 5px;
+}

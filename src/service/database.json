@@ -1,0 +1,38 @@
+{
+  "contacts": [
+    {
+      "id": "16b50e1b-a9fa-4463-89b1-8a212a85c122",
+      "name": "Travis Scot",
+      "email": "travis.scot@yahoo.es",
+      "phone": "+1 313 2556984",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRij6dtiHizH96qpCOe8WeXXP3yLyQJkPdGVg&usqp=CAU"
+    },
+    {
+      "id": "ff8af116-739f-4247-bc86-40b5f5dee965",
+      "name": "Jhon Richards",
+      "email": "jhonrichardsp@outlook.com",
+      "phone": "+1 696 5894251",
+      "photo": ""
+    },
+    {
+      "id": "204c3ed8-f6dc-47bb-991a-99476b18e227",
+      "name": "Natasha Cortez",
+      "email": "nataroland@gmail.com",
+      "phone": "+54 5864258478",
+      "photo": "https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg?fit=640,427"
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "companyname": "some comment",
+      "location": "",
+      "emal": "",
+      "conatct": {
+        "contactname": "",
+        "contactemail": "",
+        "contactphpne": ""
+      }
+    }
+  ]
+}
