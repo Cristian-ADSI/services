@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #ffffff;
+  height: 60px;
+}   
+nav .nav__conten {
+  padding: 0 10%;
+}
+nav .nav__conten .nav__links a {
+  color: #525252;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: all ease 0.2s;
+}
+nav .nav__conten .nav__links a:hover {
+  color: #12c2e9;
+}

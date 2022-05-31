@@ -21,11 +21,8 @@
 .axios__page h1 > .list {
   font-size: 40px;
   text-align: center;
-  color: #f64f59;
+  color: #12c2e9;
   font-weight: 400;
-}
-.contact__list {
-  min-width: 47%;
 }
 .contact__card {
   position: relative;
@@ -45,7 +42,6 @@
   width: 40px;
   clip-path: circle();
 }
-
 .contact__card .data {
   width: 75%;
 }
@@ -55,7 +51,7 @@
 .contact__card .data .name,
 .contact__card .data .phone {
   color: #525252;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 .contact__card .data .name span {
@@ -79,6 +75,9 @@
   cursor: pointer;
   color: #12c2e9;
 }
+.contact__list {
+  min-width: 47%;
+}
 .contact__list .empty__list-text {
   margin-top: 60px;
   font-size: 30px;
@@ -87,7 +86,6 @@
   font-weight: 400;
   opacity: 0.5;
 }
-
 /* Form  */
 .contact__form {
   min-width: 47%;
@@ -175,7 +173,6 @@
 .contact__form form button:hover::before {
   opacity: 1;
 }
-
 /* Modal  */
 .moda__title {
   font-size: 25px;
@@ -186,9 +183,6 @@
 }
 .modal-body {
   width: 100%;
-}
-.modal-body form .input__text {
-  padding: 0 20px;
 }
 .modal-body .input__text input {
   height: 32px;
@@ -202,6 +196,9 @@
   text-align: center;
 
   border: solid 1px #00b5fd;
+}
+.modal-body form .input__text {
+  padding: 0 20px;
 }
 .modal-body form .input__text i {
   height: 00%;

@@ -1,9 +1,9 @@
 import "./App.css";
-import PageAxios from "./pages/PageAxios";
+import { Router } from "./Router";
 function App() {
   return (
     <div className="App">
-      <PageAxios />
+     <Router />
     </div>
   );
 }
