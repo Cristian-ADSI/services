@@ -121,6 +121,7 @@
   border: none;
 }
 .contact__form form .input__text i {
+  text-align: center;
   height: 18px;
   color: #ffffff;
   width: 10%;
@@ -174,12 +175,18 @@
   opacity: 1;
 }
 /* Modal  */
+.modal-dialog{
+  max-width: 800px;
+}
 .moda__title {
   font-size: 25px;
   color: #525252;
 }
 .moda__title span {
   color: #12c2e9;
+}
+.modal-body.true{
+  pointer-events: none;
 }
 .modal-body form .input__text {
   padding: 0 20px;
@@ -198,6 +205,7 @@
   border: solid 1px #00b5fd;
 }
 .modal-body form .input__text i {
+  text-align: center;
   height: 00%;
   color: #ffffff;
   width: 50px;

@@ -24,14 +24,25 @@
   ],
   "companies": [
     {
-      "id": 1,
-      "companyname": "some comment",
-      "location": "",
-      "email": "",
+      "id": "ed18803d-8d1a-49ad-ba50-646800d8cf73",
+      "companyname": "Enviroment Solutions",
+      "location": "Filiphines",
+      "email": "envslscompany@enviromentsls.com",
       "contact": {
-        "contactname": "",
-        "contactemail": "",
-        "contactphone": ""
+        "contactname": "Harvey Specter",
+        "contactemail": "harveyspect@enviromentsls.com",
+        "contactphone": "+78 55547411"
+      }
+    },
+    {
+      "id": "62fb4eff-fe29-46b7-8772-846f56a22a10",
+      "companyname": "Mithchel Motors Inc",
+      "location": "United Kingdom",
+      "email": "mit-motorsinc@mitchelmotors.com",
+      "contact": {
+        "contactname": "Steeven Ross",
+        "contactemail": "ross.steeven@mitchelmotors.uk",
+        "contactphone": "+25 558425624"
       }
     }
   ]
