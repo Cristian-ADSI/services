@@ -9,7 +9,7 @@
     },
     {
       "id": "204c3ed8-f6dc-47bb-991a-99476b18e227",
-      "name": "Natasha Cortesss",
+      "name": "Natasha Cortes",
       "email": "nataroland@gmail.com",
       "phone": "+54 5864258478",
       "photo": "https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg?fit=640,427"
@@ -27,11 +27,11 @@
       "id": 1,
       "companyname": "some comment",
       "location": "",
-      "emal": "",
-      "conatct": {
+      "email": "",
+      "contact": {
         "contactname": "",
         "contactemail": "",
-        "contactphpne": ""
+        "contactphone": ""
       }
     }
   ]
